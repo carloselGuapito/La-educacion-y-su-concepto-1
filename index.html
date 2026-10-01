@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Educación: El Motor de la Transformación Humana</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts Inter -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Poppins', 'sans-serif'],
+                    },
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-slate-900 text-slate-100 antialiased selection:bg-pink-500 selection:text-white">
+
+    <nav class="fixed top-0 left-0 right-0 z-50 bg-slate-900/80 backdrop-blur-md border-b border-slate-800 transition-all duration-300">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+            <div class="flex items-center space-x-3">
+                <div class="bg-gradient-to-tr from-pink-500 to-violet-600 text-white p-3 rounded-2xl shadow-lg shadow-pink-500/30">
+                    <i class="fa-solid fa-graduation-cap text-xl"></i>
+                </div>
+                <span class="font-extrabold text-xl bg-gradient-to-r from-pink-400 via-purple-300 to-indigo-400 bg-clip-text text-transparent">EducaColor</span>
+            </div>
+            <div class="hidden lg:flex items-center space-x-8 text-sm font-medium text-slate-300">
+                <a href="#inicio" class="hover:text-pink-400 transition">Inicio</a>
+                <a href="#que-es" class="hover:text-pink-400 transition">¿Qué es?</a>
+                <a href="#como-nos-ayuda" class="hover:text-pink-400 transition">Beneficios</a>
+                <a href="#por-que-no-estudian" class="hover:text-pink-400 transition">Obstáculos</a>
+                <a href="#analfabetismo" class="hover:text-pink-400 transition">Analfabetismo</a>
+                <a href="#tipos" class="hover:text-pink-400 transition">Tipos</a>
+            </div>
+            <div>
+                <a href="#quiz" class="bg-gradient-to-r from-pink-500 to-violet-600 hover:from-pink-600 hover:to-violet-700 text-white text-sm font-bold px-6 py-3 rounded-2xl shadow-lg shadow-pink-500/25 transition transform hover:-scale-105">¡Juega y Aprende!</a>
+            </div>
+        </div>
+    </nav>
+
+    <header id="inicio" class="relative pt-36 pb-24 md:pt-48 md:pb-36 overflow-hidden bg-slate-900">
+        <div class="absolute top-1/4 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[500px] bg-gradient-to-tr from-pink-600/30 via-purple-600/30 to-indigo-600/30 rounded-full blur-3xl -z-10 pointer-events-none"></div>
+        
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <span class="inline-flex items-center gap-2 py-2 px-4 rounded-full text-xs font-bold bg-gradient-to-r from-pink-500/10 to-violet-500/10 border border-pink-500/20 text-pink-400 mb-6 shadow-inner">
+                <i class="fa-solid fa-bolt text-pink-400"></i> Proyecto Escolar Súper Visual e Interactivo
+            </span>
+            <h1 class="text-4xl sm:text-6xl md:text-7xl font-extrabold text-white tracking-tight max-w-5xl mx-auto leading-tight">
+                El Poder de la <span class="bg-gradient-to-r from-pink-400 via-purple-400 to-indigo-400 bg-clip-text text-transparent">Educación</span> en Nuestras Vidas
+            </h1>
+            <p class="mt-6 text-lg sm:text-xl text-slate-300 max-w-2xl mx-auto font-light leading-relaxed">
+                Descubre cómo el conocimiento rompe cadenas, abre puertas al futuro y cuáles son las barreras que debemos vencer como sociedad.
+            </p>
+            <div class="mt-10 flex flex-col sm:flex-row justify-center items-center gap-4">
+                <a href="#que-es" class="w-full sm:w-auto bg-gradient-to-r from-pink-500 to-violet-600 hover:from-pink-600 hover:to-violet-700 text-white font-bold px-8 py-4 rounded-2xl shadow-xl shadow-pink-500/20 transition transform hover:-translate-y-1">
+                    Explorar el tema <i class="fa-solid fa-arrow-down ml-2 text-xs"></i>
+                </a>
+                <a href="#quiz" class="w-full sm:w-auto bg-slate-800 hover:bg-slate-700 text-slate-200 border border-slate-700 font-semibold px-8 py-4 rounded-2xl transition">
+                    Ir al Quiz Colorido
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <section id="que-es" class="py-24 bg-slate-950 relative border-t border-slate-800/60">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+                <div>
+                    <span class="text-pink-400 font-bold text-xs uppercase tracking-widest bg-pink-500/10 py-1.5 px-3 rounded-lg border border-pink-500/20">Concepto Esencial</span>
+                    <h2 class="text-3xl sm:text-4xl font-extrabold text-white mt-4 mb-6">¿Qué es exactamente la Educación?</h2>
+                    <p class="text-slate-300 leading-relaxed mb-4 text-base font-light">
+                        La educación es mucho más que asistir a la escuela y memorizar fórmulas. Es un proceso dinámico de transformación que cultiva el pensamiento crítico, la empatía y la libertad individual.
+                    </p>
+                    <p class="text-slate-300 leading-relaxed mb-8 text-base font-light">
+                        Viene del latín <i class="text-pink-300">educere</i> (extraer el potencial interior) y <i class="text-pink-300">educare</i> (guiar y formar). En pocas palabras: es la llave maestra para abrir el potencial humano.
+                    </p>
+                    <div class="grid grid-cols-2 gap-4">
+                        <div class="bg-gradient-to-br from-violet-900/40 to-slate-900 p-5 rounded-2xl border border-violet-500/30">
+                            <div class="w-10 h-10 rounded-xl bg-violet-500/20 text-violet-400 flex items-center justify-center mb-3">
+                                <i class="fa-solid fa-brain text-lg"></i>
+                            </div>
+                            <h4 class="font-bold text-white text-sm">Pensamiento Crítico</h4>
+                            <p class="text-xs text-slate-400 mt-1">Cuestionar con argumentos sólidos.</p>
+                        </div>
+                        <div class="bg-gradient-to-br from-pink-900/40 to-slate-900 p-5 rounded-2xl border border-pink-500/30">
+                            <div class="w-10 h-10 rounded-xl bg-pink-500/20 text-pink-400 flex items-center justify-center mb-3">
+                                <i class="fa-solid fa-seedling text-lg"></i>
+                            </div>
+                            <h4 class="font-bold text-white text-sm">Crecimiento</h4>
+                            <p class="text-xs text-slate-400 mt-1">Desarrollo integral personal.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="relative">
+                    <div class="absolute inset-0 bg-gradient-to-tr from-pink-500 to-violet-600 rounded-3xl blur-2xl opacity-20"></div>
+                    <div class="relative bg-slate-900 border border-slate-800 rounded-3xl p-8 shadow-2xl">
+                        <div class="flex items-center space-x-2 mb-6">
+                            <div class="w-3 h-3 bg-pink-500 rounded-full"></div>
+                            <div class="w-3 h-3 bg-purple-500 rounded-full"></div>
+                            <div class="w-3 h-3 bg-indigo-500 rounded-full"></div>
+                            <span class="text-xs text-slate-400 font-mono ml-2">inspiracion.js</span>
+                        </div>
+                        <blockquote class="text-xl italic text-slate-100 font-normal mb-6 leading-relaxed">
+                            "La educación es el arma más poderosa que puedes usar para cambiar el mundo."
+                        </blockquote>
+                        <div class="flex items-center space-x-4">
+                            <div class="w-12 h-12 rounded-2xl bg-gradient-to-tr from-pink-500 to-violet-600 flex items-center justify-center font-bold text-white shadow-lg">NM</div>
+                            <div>
+                                <h5 class="text-sm font-bold text-white">Nelson Mandela</h5>
+                                <p class="text-xs text-pink-400">Premio Nobel de la Paz</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="como-nos-ayuda" class="py-24 bg-slate-900">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <span class="text-purple-400 font-bold text-xs uppercase tracking-widest bg-purple-500/10 py-1.5 px-3 rounded-lg border border-purple-500/20">Impacto Real</span>
+                <h2 class="text-3xl sm:text-4xl font-extrabold text-white mt-4">¿Cómo nos ayuda la Educación en la vida?</h2>
+                <p class="text-slate-300 mt-4 text-base font-light">Estudiar cambia por completo nuestro destino en múltiples dimensiones:</p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-gradient-to-b from-slate-800 to-slate-900 p-8 rounded-3xl border border-slate-700/60 shadow-xl hover:border-pink-500/50 transition duration-300 group">
+                    <div class="w-14 h-14 bg-pink-500/10 text-pink-400 rounded-2xl flex items-center justify-center text-2xl mb-6 group-hover:scale-110 transition duration-300">
+                        <i class="fa-solid fa-briefcase"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-3">Mejores Empleos</h3>
+                    <p class="text-slate-300 text-sm leading-relaxed font-light">
+                        Te otorga habilidades profesionales para acceder a trabajos bien pagados, estables y que te apasionen, reduciendo la vulnerabilidad económica.
+                    </p>
+                </div>
+                <div class="bg-gradient-to-b from-slate-800 to-slate-900 p-8 rounded-3xl border border-slate-700/60 shadow-xl hover:border-purple-500/50 transition duration-300 group">
+                    <div class="w-14 h-14 bg-purple-500/10 text-purple-400 rounded-2xl flex items-center justify-center text-2xl mb-6 group-hover:scale-110 transition duration-300">
+                        <i class="fa-solid fa-shield-halved"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-3">Autonomía y Seguridad</h3>
+                    <p class="text-slate-300 text-sm leading-relaxed font-light">
+                        Te da voz propia, te enseña a defender tus derechos con argumentos firmes y te protege frente a abusos, estafas y desinformación.
+                    </p>
+                </div>
+                <div class="bg-gradient-to-b from-slate-800 to-slate-900 p-8 rounded-3xl border border-slate-700/60 shadow-xl hover:border-indigo-500/50 transition duration-300 group">
+                    <div class="w-14 h-14 bg-indigo-500/10 text-indigo-400 rounded-2xl flex items-center justify-center text-2xl mb-6 group-hover:scale-110 transition duration-300">
+                        <i class="fa-solid fa-heart-pulse"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-3">Salud y Bienestar</h3>
+                    <p class="text-slate-300 text-sm leading-relaxed font-light">
+                        Comprendes mejor los hábitos de vida saludables, el autocuidado mental, la prevención de enfermedades y el equilibrio emocional.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="por-que-no-estudian" class="py-24 bg-slate-950 border-t border-slate-800/60">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <span class="text-rose-400 font-bold text-xs uppercase tracking-widest bg-rose-500/10 py-1.5 px-3 rounded-lg border border-rose-500/20">Realidades del Mundo</span>
+                <h2 class="text-3xl sm:text-4xl font-extrabold text-white mt-4">¿Por qué algunas personas no pueden estudiar?</h2>
+                <p class="text-slate-300 mt-4 text-base font-light">Existen barreras estructurales muy duras que impiden a millones de personas tener acceso a la escuela:</p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <div class="bg-slate-900 border border-slate-800 p-7 rounded-3xl hover:border-rose-500/40 transition">
+                    <div class="w-12 h-12 bg-rose-500/10 text-rose-400 rounded-2xl flex items-center justify-center text-xl mb-5">
+                        <i class="fa-solid fa-coins"></i>
+                    </div>
+                    <h4 class="font-bold text-white text-lg mb-2">Pobreza Extrema</h4>
+                    <p class="text-slate-400 text-xs leading-relaxed font-light">
+                        Familias que no pueden costear útiles o donde los niños deben trabajar desde pequeños para comer.
+                    </p>
+                </div>
+                <div class="bg-slate-900 border border-slate-800 p-7 rounded-3xl hover:border-rose-500/40 transition">
+                    <div class="w-12 h-12 bg-rose-500/10 text-rose-400 rounded-2xl flex items-center justify-center text-xl mb-5">
+                        <i class="fa-solid fa-mountain-sun"></i>
+                    </div>
+                    <h4 class="font-bold text-white text-lg mb-2">Aislamiento Rural</h4>
+                    <p class="text-slate-400 text-xs leading-relaxed font-light">
+                        Escuelas situadas a horas de caminata en zonas montañosas o rurales sin caminos seguros ni transporte.
+                    </p>
+                </div>
+                <div class="bg-slate-900 border border-slate-800 p-7 rounded-3xl hover:border-rose-500/40 transition">
+                    <div class="w-12 h-12 bg-rose-500/10 text-rose-400 rounded-2xl flex items-center justify-center text-xl mb-5">
+                        <i class="fa-solid fa-person-military-pointing"></i>
+                    </div>
+                    <h4 class="font-bold text-white text-lg mb-2">Conflictos y Violencia</h4>
+                    <p class="text-slate-400 text-xs leading-relaxed font-light">
+                        Guerras, desplazamiento forzado e inseguridad que destruyen colegios enteros e interrumpen clases.
+                    </p>
+                </div>
+                <div class="bg-slate-900 border border-slate-800 p-7 rounded-3xl hover:border-rose-500/40 transition">
+                    <div class="w-12 h-12 bg-rose-500/10 text-rose-400 rounded-2xl flex items-center justify-center text-xl mb-5">
+                        <i class="fa-solid fa-scale-unbalanced-flip"></i>
+                    </div>
+                    <h4 class="font-bold text-white text-lg mb-2">Desigualdad de Género</h4>
+                    <p class="text-slate-400 text-xs leading-relaxed font-light">
+                        Culturas que priorizan la educación de los varones y obligan a las niñas a quedarse en casa.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="analfabetismo" class="py-24 bg-slate-900">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="bg-gradient-to-r from-violet-950 via-slate-900 to-indigo-950 rounded-3xl p-8 sm:p-14 border border-indigo-500/30 shadow-2xl">
+                <div class="grid grid-cols-1 lg:grid-cols-3 gap-10 items-center">
+                    <div class="lg:col-span-2">
+                        <span class="text-indigo-400 font-bold text-xs uppercase tracking-widest bg-indigo-500/10 py-1.5 px-3 rounded-lg border border-indigo-500/20">Realidad Social</span>
+                        <h2 class="text-3xl sm:text-4xl font-extrabold text-white mt-4 mb-4">El Analfabetismo y su impacto</h2>
+                        <p class="text-slate-300 text-sm sm:text-base leading-relaxed mb-4 font-light">
+                            El <b>analfabetismo</b> es la incapacidad de leer o escribir textos simples. Hoy en día también se habla de analfabetismo digital (desconocer la tecnología) y funcional.
+                        </p>
+                        <p class="text-slate-300 text-sm sm:text-base leading-relaxed mb-6 font-light">
+                            Las personas que lo padecen sufren enormes dificultades cotidianas para subirse a un transporte, firmar un contrato, leer recetas médicas o ser blanco fácil de fraudes. Erradicarlo es una prioridad mundial (ODS 4).
+                        </p>
+                        <div class="flex items-center gap-3 text-sm text-indigo-300 font-medium bg-indigo-500/10 p-4 rounded-2xl border border-indigo-500/20">
+                            <i class="fa-solid fa-lightbulb text-indigo-400 text-xl"></i>
+                            <span>La alfabetización de adultos devuelve la dignidad y abre un nuevo horizonte de oportunidades.</span>
+                        </div>
+                    </div>
+                    <div class="bg-slate-900/90 border border-slate-800 text-white p-8 rounded-3xl flex flex-col justify-center text-center shadow-xl">
+                        <div class="w-16 h-16 bg-gradient-to-tr from-pink-500 to-violet-600 rounded-2xl flex items-center justify-center text-2xl mx-auto mb-5 shadow-lg">
+                            <i class="fa-solid fa-book-open-reader"></i>
+                        </div>
+                        <h4 class="font-bold text-xl mb-2">Una meta pendiente</h4>
+                        <p class="text-slate-300 text-xs leading-relaxed mb-6 font-light">
+                            Garantizar educación inclusiva y equitativa de calidad para todas las personas del planeta.
+                        </p>
+                        <span class="bg-gradient-to-r from-pink-500 to-violet-600 text-white font-bold py-3 px-4 rounded-xl text-xs uppercase tracking-wider shadow-md">Derecho Universal</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="tipos" class="py-24 bg-slate-950 border-t border-slate-800/60">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <span class="text-pink-400 font-bold text-xs uppercase tracking-widest bg-pink-500/10 py-1.5 px-3 rounded-lg border border-pink-500/20">Clasificación</span>
+                <h2 class="text-3xl sm:text-4xl font-extrabold text-white mt-4">Tipos de Educación</h2>
+                <p class="text-slate-300 mt-4 text-base font-light">Aprendemos en diferentes escenarios a lo largo de nuestra vida:</p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-gradient-to-b from-slate-900 to-slate-900/80 border border-slate-800 rounded-3xl p-8 flex flex-col justify-between shadow-xl hover:border-pink-500/40 transition">
+                    <div>
+                        <div class="bg-pink-500/10 text-pink-400 border border-pink-500/20 w-fit px-3.5 py-1 rounded-full text-xs font-bold mb-6">Institucional</div>
+                        <h3 class="text-2xl font-bold text-white mb-4">1. Educación Formal</h3>
+                        <p class="text-slate-300 text-sm leading-relaxed mb-6 font-light">
+                            El sistema estructurado y oficial que se imparte en escuelas, institutos y universidades otorgando títulos con validez legal.
+                        </p>
+                    </div>
+                    <div class="border-t border-slate-800 pt-4 flex items-center gap-2 text-xs text-slate-400 font-medium">
+                        <i class="fa-solid fa-school text-pink-400"></i> Colegios y Universidades
+                    </div>
+                </div>
+                <div class="bg-gradient-to-b from-slate-900 to-slate-900/80 border border-slate-800 rounded-3xl p-8 flex flex-col justify-between shadow-xl hover:border-purple-500/40 transition">
+                    <div>
+                        <div class="bg-purple-500/10 text-purple-400 border border-purple-500/20 w-fit px-3.5 py-1 rounded-full text-xs font-bold mb-6">Extraescolar</div>
+                        <h3 class="text-2xl font-bold text-white mb-4">2. Educación No Formal</h3>
+                        <p class="text-slate-300 text-sm leading-relaxed mb-6 font-light">
+                            Cursos, talleres comunitarios, academias o capacitación técnica fuera del sistema obligatorio con metas específicas.
+                        </p>
+                    </div>
+                    <div class="border-t border-slate-800 pt-4 flex items-center gap-2 text-xs text-slate-400 font-medium">
+                        <i class="fa-solid fa-laptop text-purple-400"></i> Talleres y Cursos Online
+                    </div>
+                </div>
+                <div class="bg-gradient-to-b from-slate-900 to-slate-900/80 border border-slate-800 rounded-3xl p-8 flex flex-col justify-between shadow-xl hover:border-indigo-500/40 transition">
+                    <div>
+                        <div class="bg-indigo-500/10 text-indigo-400 border border-indigo-500/20 w-fit px-3.5 py-1 rounded-full text-xs font-bold mb-6">Cotidiana</div>
+                        <h3 class="text-2xl font-bold text-white mb-4">3. Educación Informal</h3>
+                        <p class="text-slate-300 text-sm leading-relaxed mb-6 font-light">
+                            El aprendizaje espontáneo y diario que adquirimos en casa, con la familia, amigos y vivencias de la comunidad.
+                        </p>
+                    </div>
+                    <div class="border-t border-slate-800 pt-4 flex items-center gap-2 text-xs text-slate-400 font-medium">
+                        <i class="fa-solid fa-house-chimney text-indigo-400"></i> Hogar y Entorno Social
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="quiz" class="py-24 bg-slate-900 relative">
+        <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[400px] h-[400px] bg-purple-600/10 rounded-full blur-3xl -z-10 pointer-events-none"></div>
+        <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <span class="bg-pink-500/10 text-pink-400 border border-pink-500/20 font-bold text-xs uppercase tracking-widest py-1.5 px-4 rounded-full">Pon a prueba tu lectura</span>
+                <h2 class="text-3xl sm:text-4xl font-extrabold text-white mt-3">Quiz Interactivo Ampliado (5 Preguntas)</h2>
+                <p class="text-slate-300 mt-2 font-light">Demuestra lo que aprendiste respondiendo este completo cuestionario escolar.</p>
+            </div>
+
+            <div class="bg-slate-950 border border-slate-800 rounded-3xl shadow-2xl p-6 sm:p-10">
+                <div id="quiz-container">
+                    <!-- Question 1 -->
+                    <div class="quiz-step" data-step="1">
+                        <div class="flex justify-between items-center mb-6">
+                            <span class="text-xs font-bold text-pink-400 uppercase tracking-wider">Pregunta 1 de 5</span>
+                            <span class="text-xs text-slate-400 font-mono">20%</span>
+                        </div>
+                        <h3 class="text-xl font-bold text-white mb-6">¿Qué significa etimológicamente "educere"?</h3>
+                        <div class="space-y-3">
+                            <label class="flex items-center p-4 border border-slate-800 rounded-2xl cursor-pointer hover:bg-slate-900 transition">
+                                <input type="radio" name="q1" value="no" class="text-pink-500 focus:ring-pink-500 w-4 h-4">
+                                <span class="ml-3 text-sm font-medium text-slate-300">Obligar a memorizar</span>
+                            </label>
+                            <label class="flex items-center p-4 border border-slate-800 rounded-2xl cursor-pointer hover:bg-slate-900 transition">
+                                <input type="radio" name="q1" value="si" class="text-pink-500 focus:ring-pink-500 w-4 h-4">
+                                <span class="ml-3 text-sm font-medium text-slate-300">Sacar o extraer el potencial del individuo</span>
+                            </label>
+                            <label class="flex items-center p-4 border border-slate-800 rounded-2xl cursor-pointer hover:bg-slate-900 transition">
+                                <input type="radio" name="q1" value="no" class="text-pink-500 focus:ring-pink-500 w-4 h-4">
+                                <span class="ml-3 text-sm font-medium text-slate-300">Construir escuelas físicas</span>
+                            </label>
+                        </div>
+                        <button onclick="nextQuizStep(2)" class="mt-8 w-full bg-gradient-to-r from-pink-500 to-violet-600 hover:opacity-90 text-white font-bold py-4 rounded-2xl shadow-lg shadow-pink-500/20 transition">Siguiente Pregunta</button>
+                    </div>
+
+                    <!-- Question 2 -->
+                    <div class="quiz-step hidden" data-step="2">
+                        <div class="flex justify-between items-center mb-6">
+                            <span class="text-xs font-bold text-purple-400 uppercase tracking-wider">Pregunta 2 de 5</span>
+                            <span class="text-xs text-slate-400 font-mono">40%</span>
+                        </div>
+                        <h3 class="text-xl font-bold text-white mb-6">¿Cuál es una causa principal de que millones de personas no estudien?</h3>
+                        <div class="space-y-3">
+                            <label class="flex items-center p-4 border border-slate-800 rounded-2xl cursor-pointer hover:bg-slate-900 transition">
+                                <input type="radio" name="q2" value="no" class="text-purple-500 focus:ring-purple-500 w-4 h-4">
+                                <span class="ml-3 text-sm font-medium text-slate-300">Porque nadie quiere aprender</span>
+                            </label>
+                            <label class="flex items-center p-4 border border-slate-800 rounded-2xl cursor-pointer hover:bg-slate-900 transition">
+                                <input type="radio" name="q2" value="si" class="text-purple-500 focus:ring-purple-500 w-4 h-4">
+                                <span class="ml-3 text-sm font-medium text-slate-300">La pobreza extrema, el trabajo infantil y la lejanía geográfica</span>
+                            </label>
+                            <label class="flex items-center p-4 border border-slate-800 rounded-2xl cursor-pointer hover:bg-slate-900 transition">
+                                <input type="radio" name="q2" value="no" class="text-purple-500 focus:ring-purple-500 w-4 h-4">
+                                <span class="ml-3 text-sm font-medium text-slate-300">Porque ya no existen libros impresos</span>
+                            </label>
+                        </div>
+                        <div class="flex gap-3 mt-8">
+                            <button onclick="nextQuizStep(1)" class="w-1/3 bg-slate-800 hover:bg-slate-700 text-slate-200 font-semibold py-4 rounded-2xl transition">Anterior</button>
+                            <button onclick="nextQuizStep(3)" class="w-2/3 bg-gradient-to-r from-pink-500 to-violet-600 hover:opacity-90 text-white font-bold py-4 rounded-2xl shadow-lg shadow-pink-500/20 transition">Siguiente Pregunta</button>
+                        </div>
+                    </div>
+
+                    <!-- Question 3 -->
+                    <div class="quiz-step hidden" data-step="3">
+                        <div class="flex justify-between items-center mb-6">
+                            <span class="text-xs font-bold text-indigo-400 uppercase tracking-wider">Pregunta 3 de 5</span>
+                            <span class="text-xs text-slate-400 font-mono">60%</span>
+                        </div>
+                        <h3 class="text-xl font-bold text-white mb-6">¿Qué define el analfabetismo?</h3>
+                        <div class="space-y-3">
+                            <label class="flex items-center p-4 border border-slate-800 rounded-2xl cursor-pointer hover:bg-slate-900 transition">
+                                <input type="radio" name="q3" value="si" class="text-indigo-500 focus:ring-indigo-500 w-4 h-4">
+                                <span class="ml-3 text-sm font-medium text-slate-300">La incapacidad para leer y escribir textos sencillos</span>
+                            </label>
+                            <label class="flex items-center p-4 border border-slate-800 rounded-2xl cursor-pointer hover:bg-slate-900 transition">
+                                <input type="radio" name="q3" value="no" class="text-indigo-500 focus:ring-indigo-500 w-4 h-4">
+                                <span class="ml-3 text-sm font-medium text-slate-300">No saber programación avanzada</span>
+                            </label>
+                            <label class="flex items-center p-4 border border-slate-800 rounded-2xl cursor-pointer hover:bg-slate-900 transition">
+                                <input type="radio" name="q3" value="no" class="text-indigo-500 focus:ring-indigo-500 w-4 h-4">
+                                <span class="ml-3 text-sm font-medium text-slate-300">No hablar idiomas extranjeros</span>
+                            </label>
+                        </div>
+                        <div class="flex gap-3 mt-8">
+                            <button onclick="nextQuizStep(2)" class="w-1/3 bg-slate-800 hover:bg-slate-700 text-slate-200 font-semibold py-4 rounded-2xl transition">Anterior</button>
+                            <button onclick="nextQuizStep(4)" class="w-2/3 bg-gradient-to-r from-pink-500 to-violet-600 hover:opacity-90 text-white font-bold py-4 rounded-2xl shadow-lg shadow-pink-500/20 transition">Siguiente Pregunta</button>
+                        </div>
+                    </div>
+
+                    <!-- Question 4 -->
+                    <div class="quiz-step hidden" data-step="4">
+                        <div class="flex justify-between items-center mb-6">
+                            <span class="text-xs font-bold text-pink-400 uppercase tracking-wider">Pregunta 4 de 5</span>
+                            <span class="text-xs text-slate-400 font-mono">80%</span>
+                        </div>
+                        <h3 class="text-xl font-bold text-white mb-6">¿A qué tipo de educación pertenece el colegio o la universidad?</h3>
+                        <div class="space-y-3">
+                            <label class="flex items-center p-4 border border-slate-800 rounded-2xl cursor-pointer hover:bg-slate-900 transition">
+                                <input type="radio" name="q4" value="no" class="text-pink-500 focus:ring-pink-500 w-4 h-4">
+                                <span class="ml-3 text-sm font-medium text-slate-300">Educación Informal</span>
+                            </label>
+                            <label class="flex items-center p-4 border border-slate-800 rounded-2xl cursor-pointer hover:bg-slate-900 transition">
+                                <input type="radio" name="q4" value="no" class="text-pink-500 focus:ring-pink-500 w-4 h-4">
+                                <span class="ml-3 text-sm font-medium text-slate-300">Educación No Formal</span>
+                            </label>
+                            <label class="flex items-center p-4 border border-slate-800 rounded-2xl cursor-pointer hover:bg-slate-900 transition">
+                                <input type="radio" name="q4" value="si" class="text-pink-500 focus:ring-pink-500 w-4 h-4">
+                                <span class="ml-3 text-sm font-medium text-slate-300">Educación Formal</span>
+                            </label>
+                        </div>
+                        <div class="flex gap-3 mt-8">
+                            <button onclick="nextQuizStep(3)" class="w-1/3 bg-slate-800 hover:bg-slate-700 text-slate-200 font-semibold py-4 rounded-2xl transition">Anterior</button>
+                            <button onclick="nextQuizStep(5)" class="w-2/3 bg-gradient-to-r from-pink-500 to-violet-600 hover:opacity-90 text-white font-bold py-4 rounded-2xl shadow-lg shadow-pink-500/20 transition">Siguiente Pregunta</button>
+                        </div>
+                    </div>
+
+                    <!-- Question 5 -->
+                    <div class="quiz-step hidden" data-step="5">
+                        <div class="flex justify-between items-center mb-6">
+                            <span class="text-xs font-bold text-purple-400 uppercase tracking-wider">Pregunta 5 de 5</span>
+                            <span class="text-xs text-slate-400 font-mono">100%</span>
+                        </div>
+                        <h3 class="text-xl font-bold text-white mb-6">¿Cuál es uno de los principales beneficios de tener buena educación?</h3>
+                        <div class="space-y-3">
+                            <label class="flex items-center p-4 border border-slate-800 rounded-2xl cursor-pointer hover:bg-slate-900 transition">
+                                <input type="radio" name="q5" value="si" class="text-purple-500 focus:ring-purple-500 w-4 h-4">
+                                <span class="ml-3 text-sm font-medium text-slate-300">Acceder a mejores empleos y mayor autonomía personal</span>
+                            </label>
+                            <label class="flex items-center p-4 border border-slate-800 rounded-2xl cursor-pointer hover:bg-slate-900 transition">
+                                <input type="radio" name="q5" value="no" class="text-purple-500 focus:ring-purple-500 w-4 h-4">
+                                <span class="ml-3 text-sm font-medium text-slate-300">No tener que trabajar nunca en la vida</span>
+                            </label>
+                            <label class="flex items-center p-4 border border-slate-800 rounded-2xl cursor-pointer hover:bg-slate-900 transition">
+                                <input type="radio" name="q5" value="no" class="text-purple-500 focus:ring-purple-500 w-4 h-4">
+                                <span class="ml-3 text-sm font-medium text-slate-300">Ganar premios de lotería automáticamente</span>
+                            </label>
+                        </div>
+                        <div class="flex gap-3 mt-8">
+                            <button onclick="nextQuizStep(4)" class="w-1/3 bg-slate-800 hover:bg-slate-700 text-slate-200 font-semibold py-4 rounded-2xl transition">Anterior</button>
+                            <button onclick="calculateQuizScore()" class="w-2/3 bg-gradient-to-r from-pink-500 to-violet-600 hover:opacity-90 text-white font-bold py-4 rounded-2xl shadow-lg shadow-pink-500/20 transition">Ver Resultado</button>
+                        </div>
+                    </div>
+
+                    <!-- Result Step -->
+                    <div id="quiz-result" class="hidden text-center py-8">
+                        <div class="w-20 h-20 bg-gradient-to-tr from-pink-500 to-violet-600 text-white rounded-3xl flex items-center justify-center text-4xl mx-auto mb-6 shadow-xl shadow-pink-500/30">
+                            <i class="fa-solid fa-trophy"></i>
+                        </div>
+                        <h3 class="text-3xl font-extrabold text-white mb-3">¡Excelente Trabajo!</h3>
+                        <p id="score-text" class="text-slate-300 mb-6 text-lg font-light"></p>
+                        
+                        <div id="inspirational-quote-box" class="bg-slate-900 border border-slate-800 p-6 rounded-2xl max-w-xl mx-auto mb-8 shadow-inner">
+                            <i class="fa-solid fa-quote-left text-pink-400 text-2xl mb-2 block"></i>
+                            <p id="quote-text" class="italic text-slate-200 text-sm sm:text-base font-normal leading-relaxed"></p>
+                        </div>
+
+                        <button onclick="resetQuiz()" class="bg-gradient-to-r from-pink-500 to-violet-600 hover:opacity-90 text-white font-bold px-8 py-4 rounded-2xl shadow-lg shadow-pink-500/20 transition">Reiniciar Quiz</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-slate-950 text-white py-12 border-t border-slate-800/80">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row justify-between items-center gap-6">
+            <div class="flex items-center space-x-3">
+                <div class="bg-gradient-to-tr from-pink-500 to-violet-600 text-white p-2.5 rounded-2xl">
+                    <i class="fa-solid fa-graduation-cap text-lg"></i>
+                </div>
+                <span class="font-bold text-lg bg-gradient-to-r from-pink-400 to-violet-400 bg-clip-text text-transparent">EducaColor - Tarea de Informática</span>
+            </div>
+            <p class="text-slate-400 text-sm font-light">Diseñado con pasión para destacar en tu presentación escolar.</p>
+            <div class="flex space-x-4 text-slate-400 text-lg">
+                <a href="#inicio" class="w-10 h-10 bg-slate-900 border border-slate-800 rounded-xl flex items-center justify-center hover:text-white hover:border-pink-500 transition"><i class="fa-solid fa-arrow-up text-sm"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        function nextQuizStep(step) {
+            const steps = document.querySelectorAll('.quiz-step');
+            steps.forEach(s => s.classList.add('hidden'));
+            const target = document.querySelector(`.quiz-step[data-step="${step}"]`);
+            if (target) {
+                target.classList.remove('hidden');
+            }
+        }
+
+        function calculateQuizScore() {
+            let score = 0;
+            const q1 = document.querySelector('input[name="q1"]:checked');
+            const q2 = document.querySelector('input[name="q2"]:checked');
+            const q3 = document.querySelector('input[name="q3"]:checked');
+            const q4 = document.querySelector('input[name="q4"]:checked');
+            const q5 = document.querySelector('input[name="q5"]:checked');
+
+            if (q1 && q1.value === 'si') score++;
+            if (q2 && q2.value === 'si') score++;
+            if (q3 && q3.value === 'si') score++;
+            if (q4 && q4.value === 'si') score++;
+            if (q5 && q5.value === 'si') score++;
+
+            const percentage = (score / 5) * 100;
+
+            const steps = document.querySelectorAll('.quiz-step');
+            steps.forEach(s => s.classList.add('hidden'));
+
+            const resultDiv = document.getElementById('quiz-result');
+            resultDiv.classList.remove('hidden');
+
+            const scoreText = document.getElementById('score-text');
+            scoreText.innerHTML = `Has acertado <b class="text-pink-400">${score}</b> de 5 preguntas. Tu porcentaje de acierto es <b class="text-violet-400">${percentage}%</b>.<br><span class="text-sm text-slate-400">¡Gran esfuerzo en tu tarea de informática!</span>`;
+
+            const quoteText = document.getElementById('quote-text');
+            if (percentage === 100) {
+                quoteText.innerHTML = `"¡Puntuación perfecta! Tienes una mente brillante y un futuro lleno de infinitas posibilidades gracias a tu dedicación por aprender."`;
+            } else if (percentage >= 60) {
+                quoteText.innerHTML = `"¡Muy buen trabajo! Cada nuevo concepto que aprendes es una herramienta más para construir la vida con la que sueñas."`;
+            } else {
+                quoteText.innerHTML = `"El aprendizaje es un camino constante. No te detengas, cada error es una valiosa oportunidad para volverte más sabio."`;
+            }
+        }
+
+        function resetQuiz() {
+            const radios = document.querySelectorAll('input[type="radio"]');
+            radios.forEach(r => r.checked = false);
+
+            const resultDiv = document.getElementById('quiz-result');
+            resultDiv.classList.add('hidden');
+
+            nextQuizStep(1);
+        }
+    </script>
+
+</body>
+</html>
